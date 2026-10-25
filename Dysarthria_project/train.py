@@ -11,7 +11,7 @@ from transformers import (
     DataCollatorForSeq2Seq, EarlyStoppingCallback, TrainerCallback,
     BartForConditionalGeneration, PreTrainedTokenizerFast
 )
-from utils import compute_metrics  # compute_metrics는 utils.py에서 가져옴
+from util import compute_metrics  # compute_metrics는 util.py에서 가져옴
 from model import tokenizer, model
 
 # forced eos 제거 및 generation 관련 config 설정
